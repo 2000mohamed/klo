@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.mylist {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.mylist li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+header h1 {
+  color: green;
+}
+body {
+  background-color: burlywood;
+}
+
+.desc {
+  text-align: center;
+  color: #666;
+}
+.paragrahs {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  width: 350px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.cards .card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-0 {
+  background-color: #5f9ea0;
+  color: #fff;
+  padding: 40px;
+  border-radius: 6px;
+}
+.card-1 {
+  background-color: #990000;
+  color: #fff;
+  padding: 40px;
+  border-radius: 6px;
+}
+.card-2 {
+  background-color: #666699;
+  color: #fff;
+  padding: 40px;
+  border-radius: 6px;
+}
+.grid {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+img {
+  border: 3px solid #fff;
+  width: 350px;
+}
